@@ -1,0 +1,114 @@
+ body{
+    background-image: url(https://th.bing.com/th/id/OIP.2Ys-7-217jB16M-NoPPVgAHaEo?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ header{
+    background-color: cadetblue;
+    padding: 13px;
+    text-align: center;
+}
+nav ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+    font-size: medium;
+}
+nav a{
+    color:goldenrod;
+    text-decoration: none;
+}
+/* table , th ,td{ 
+    border: 1px solid;
+    border-collapse: collapse;
+    
+}
+
+ */
+ table ,th ,td{
+    border: 1px solid;
+    border-collapse: collapse;
+ }
+ table ,th ,td{
+    width: 100%;
+    min-width: 60px;
+    padding-left: 300px;
+    padding-right: 300px; 
+ }
+ footer{
+    padding: 80px;
+    text-align: right;
+    background-color: cadetblue;
+    color: black;
+    font-size: 40px;
+
+ }
+ .flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+ }
+ #alignitems{
+   width: 100px;
+   height: 250px;
+   flex: 1;
+   border:1px solid black ;
+   display: flex;
+   align-items: center;
+ }
+   #aligncontent{
+      width: 70px;
+      height: 300px;
+      border: 1px solid #c3c3c3;
+      display: flex;
+      align-content: center;
+
+ }
+ .flexcontainer{
+   display: grid;
+   grid-template-rows: auto;
+   background-color: aquamarine;
+   padding: 0px;
+ }
+ .griditem{
+   background-color: cornsilk;
+   border: 3px solid;
+   padding: 20px;
+    font-size:30px ;
+    text-align: center;
+ }
+.gridcontainer{
+   display: grid;
+   gap:10px;
+   background-color: cyan;
+   padding: 10px;
+}
+.griditem{
+   background-color: #c3c3c3;
+   text-align: center;
+   padding: 20px;
+   font-size: 30px;
+}
+.name1{
+   grid-column: 1/ span 2;
+   grid-row: 1;
+}
+.name2{
+   grid-column: 3;
+   grid-row: 1 / span 2;
+}
+.name5{
+   grid-column: 1 / span 3;
+   grid-row: 3;
+}
